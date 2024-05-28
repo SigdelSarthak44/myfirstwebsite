@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .demo{
+            height: 500px;
+            width: 500px;
+            background-color: blueviolet;
+        }
+        @media screen and (max-width:500px){
+            .demo{
+                background-color: red;
+            } 
+        }
+        @media (min-width:500px) {
+            .demo{
+                background-color: green;
+            }
+        }
+        @media (min-width:900px) {
+            .demo{
+                background-color: green;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    
+<div class="demo"></div>
+
+</body>
+</html>

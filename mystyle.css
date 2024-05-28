@@ -244,3 +244,51 @@ width: 100%;
     font-size: 30px; 
     outline:none;
 }
+@media screen and (max-width:500px) {
+    nav{
+        flex-direction: column;
+    }
+    .demo{
+        border-radius: 60px;
+        width: 400px;
+    }
+    .image{
+        /* width: 69%; */
+        border-radius: 60px;
+     }
+     .b2{
+        /* right: 31%; */
+     }
+     .demo1 h1{
+        font-size: 30px;
+     }
+     .demo1 p{
+        font-size: 15px;
+     }
+     .img1{
+        height: 70%;
+        width: 100%;
+     }
+     .gallery h1{
+        font: size 25px;
+     }
+     .maps {
+        height: 300px;
+        
+        width: 200px;
+     }
+     .demo2 h1{
+        font-size: 50px;
+     }
+     demo2 p{
+        font-size: 15px;
+        text-align: justify;
+     }
+     .con_sub{
+        flex-direction: column;
+     }
+     .address{
+        width: 100%;
+     }
+
+    }
