@@ -244,6 +244,7 @@ width: 100%;
     font-size: 30px; 
     outline:none;
 }
+
 @media screen and (max-width:500px) {
     nav{
         flex-direction: column;
@@ -290,8 +291,7 @@ width: 100%;
      .address{
         width: 100%;
      }
-.paragraph(
-    text-align: left: ;;
-)
-
+.paragraph{
+    text-align: left ;
+}
     }
